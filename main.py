@@ -2,8 +2,6 @@ import sys
 import urllib.request
 import os
 
-# download multiple urls at once
-# reads from a txt file, one url per line
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
@@ -28,3 +26,4 @@ if __name__ == "__main__":
             print(f"fail: {url} - {e}")
     
     print("done")
+# updated
